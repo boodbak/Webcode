@@ -1,0 +1,389 @@
+video::-webkit-media-controls-panel {
+ 
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0, 0)) !important;
+
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Regular'), url('poppins-webfont/Poppins-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Italic'), url('poppins-webfont/Poppins-Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Thin'), url('poppins-webfont/Poppins-Thin.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Thin Italic'), url('poppins-webfont/Poppins-ThinItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins ExtraLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins ExtraLight'), url('poppins-webfont/Poppins-ExtraLight.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins ExtraLight Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins ExtraLight Italic'), url('poppins-webfont/Poppins-ExtraLightItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Light'), url('poppins-webfont/Poppins-Light.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Light Italic'), url('poppins-webfont/Poppins-LightItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Medium'), url('poppins-webfont/Poppins-Medium.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Medium Italic'), url('poppins-webfont/Poppins-MediumItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins SemiBold'), url('poppins-webfont/Poppins-SemiBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins SemiBold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins SemiBold Italic'), url('poppins-webfont/Poppins-SemiBoldItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Bold'), url('poppins-webfont/Poppins-Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Bold Italic'), url('poppins-webfont/Poppins-BoldItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins ExtraBold'), url('poppins-webfont/Poppins-ExtraBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins ExtraBold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins ExtraBold Italic'), url('poppins-webfont/Poppins-ExtraBoldItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Black'), url('poppins-webfont/Poppins-Black.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Poppins Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Black Italic'), url('poppins-webfont/Poppins-BlackItalic.woff') format('woff');
+  }
+
+
+
+    html {
+    min-height: 100%;}
+body {    
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    background-color: white;}
+.column {
+  float: left;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+
+  /*Landing*/
+   .socialIcons {max-width: 18px;  padding-right: 1%; object-fit:cover;  filter: none;
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    cursor: pointer;
+    transition: all 300ms ease; opacity: 30%;}
+   .socialIcons:hover{filter: none;
+    -webkit-filter: grayscale(0%);
+    -moz-filter:    grayscale(0%);
+    -ms-filter:     grayscale(0%);
+    -o-filter:      grayscale(0%);  opacity: 100%;}
+    .logo{
+     margin: 40px 10px 10px 40px ;}
+    .topnav {
+  display: flex;
+  margin-left: 23%;
+  margin-top: 0px;}
+.rowclass { display : flex;justify-content: center;}
+.header { display : flex;justify-content: center;}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;}
+  
+
+.topnav a {
+
+  display: block;
+  font-size: 15px;
+  padding:30px 40px;
+  font-family: 'Poppins Regular';
+  border-radius:0px 0px 20px 20px;
+  text-decoration:none;
+  margin: -2px 20px 70px 20px;
+  color: black;
+  border: 2px solid #ffce00;
+    background-color: white;
+     
+    transition-duration: 0.2s;
+}
+.topnav a:hover {
+  background-image: linear-gradient(to top right, #ffce00, #ffe266);
+     border: 2px solid rgb(247, 247, 247);
+    cursor: pointer;
+    
+    
+}
+
+.topnav .icon {
+  display: none;
+}
+.landingPage-content1{
+  margin: 50px 10px 40px 40px ;
+  padding-bottom: 150px;
+  font-family: 'Poppins Regular';
+  padding-right: 50px;
+  background-image: url('assets/landingPageManVector.png');background-repeat: no-repeat; background-size: 100%; background-position-y: bottom;
+}
+
+.hero-text1{margin: 0px;font-family: 'Poppins bold'; font-size: 40px; color: rgb(17, 17, 17);}
+.hero-text2{font-family: 'Poppins semibold';font-size: 22px; color:rgb(116, 116, 116); margin-top: -5px ; margin-bottom: 20px;}
+
+  .callToAction{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 0%;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  left: -2px;
+
+  background-color: #ffce00;
+     border: 2px solid #ffce00;
+ 
+
+  }
+  .callToAction:hover { background-color: rgb(22, 163, 9);
+    border: 2px solid rgb(22, 163, 9);
+    scale: 105%;
+
+
+  }
+
+  .a-links{text-decoration: none;color: rgb(255, 255, 255);font-weight: bold;}
+  .animationContent {max-width: 80%;height:auto; padding: 0px 0px; margin-top: 0px;margin-left: 20%;filter: brightness(1.03);}
+
+
+
+
+/*What we do*/
+  #whatwedo{width:100%;padding-top: 70px;padding-bottom: 10px;display: block;justify-content: center; background-color: rgb(250, 250, 250);}
+  .our-work{ font-size: 30px;display: flex;flex-direction:row;justify-content: center;font-family: 'Poppins bold';}
+  .cards{display: flex;flex-direction:row; justify-content: center;margin-top: 40px;}
+  .card-design{background-image: linear-gradient(to top right, #ffce00, #ffe266); width: 240px; height: 340px ; margin: 0px 60px; border-radius: 40px; text-align: center; padding: 10px;}
+  .zoom:hover{scale: 100%; transition-duration: 0.4s;}
+  .zoom{scale:90%;transition-duration: 0.4s;}
+  .text{color: rgb(175, 175, 175); font-family: 'Poppins regular';margin-top: 30px; text-align: center;padding: 10px auto;display: block;}
+  .resize-text{display: block;}
+
+
+/*Articles*/
+#articles{width:100%;display: block; background-color: white; padding: 150px 0 30px 0;}
+.articles-panel{display: flex;justify-content: center;}
+.article-boxs{margin: 0px;font-family: 'Poppins regular';color:rgb(53, 53, 53);}
+.seperator{background-color: gray;width: 1px;min-height: 100%;margin-left:50px; margin-right: 50px;}
+.external-link{font-family: 'Poppins bold'; text-align: center; padding-top: 70px;cursor: pointer;}
+
+
+/*How we do it*/
+#howwedoit{width:100%;display: block;justify-content: center; background-image: url('img/bg2.png');background-repeat: no-repeat;background-position: center;background-size: cover; padding: 100px 0 150px 0;}
+
+
+
+/*Contact Us*/
+  #contactus{ background-image: url(img/bg.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;}
+  .contactus-heading{display: flex; justify-content: center;padding-top: 110px;}
+  .contactus-heading-p1{color: rgb(255, 255, 255); font-size: 50px; font-family: 'Poppins bold';margin: 0%;}
+  .contactus-heading-p2{color: rgb(255, 255, 255); font-size: 50px; font-family: 'Poppins bold';margin: 0%;background-color:#eebe00; color:rgb(26, 26, 26); margin: 0px 10px;padding:0px 10px ;border-radius: 10px;}
+  .contact-content{width:100%;padding: 50px 0px 100px 0px;display: flex; justify-content: center;flex-direction: row; }
+  .contactusbox1{background-image: linear-gradient(to top right, #ffce00, #ffe266);padding: 20px 10px; border-radius: 30px 0px 0px 30px;}
+  .social-display-direction{display: block;}
+  .footer-socials{ filter: none; max-width: 50px; padding: 25% 10px; 
+    cursor: pointer;
+   opacity: 100%;transition: all 300ms ease;}
+  .scale-social{ scale: 100%;transition: all 300ms ease;}
+  .scale-social:hover{scale: 120%;transition: all 300ms ease;}
+  .contactusbox2{background-color: #ffffff; padding: 20px 30px; max-width: fit-content; border-radius: 0px 30px 30px 0px;}
+  .inputbox{border: none; border-bottom: 1px solid rgba(0, 0, 0, 0.1);background: none; width: 220px;}
+  .textbox{border: none; border-bottom: 1px solid rgba(0, 0, 0, 0.1);background: none;resize: none;width:470px;height:50px;}
+  *:focus {outline: none;}
+  /*.submit-button{background-image: linear-gradient(to top right, #ffce00, #ffe266); padding: 12px 35px; color: #ffffff; font-family: 'Poppins'; font-stretch:semi-condensed;cursor: pointer;border: none;transition: 0.3s; border-radius: 5px; box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);}
+  .submit-button:hover{background-image: linear-gradient(to top right, #eebe00, #f0cf3f);scale: 110%;}*/
+  .submit-button-blue{background-color: rgb(0, 153, 255) ; padding: 12px 7%; color: #ffffff; font-family: 'Poppins semibold';cursor: pointer;border: none;transition: 0.3s; border-radius: 5px; box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);}
+  .submit-button-blue:hover{background-color: rgb(0, 153, 255) ;;scale: 110%;}
+  .submit-button-green{background-color: rgb(22, 163, 9) ; padding: 12px 7%; color: #ffffff;font-family: 'Poppins semibold';cursor: pointer;border: none;transition: 0.3s; border-radius: 5px; box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);}
+  .submit-button-green:hover{background-color: rgb(22, 163, 9);scale: 110%;}
+  .inputbox:focus{border-bottom: 1px solid #ffe266;transition: all 300ms ease;}
+  .textbox:focus{border-bottom: 1px solid #ffe266;transition: all 300ms ease;}
+  .contactus-subheading{font-size: 20px; font-family: 'Poppins semibold'; opacity: 40%}
+  .submit-box{padding-bottom: 10px;}
+  .horizontal{display: flex;}  
+  .vertical{display: block;padding-right: 30px;line-height: 1px;}
+
+  
+
+.space{height: 50px;}
+
+
+
+  @media screen and (max-width: 600px) {
+
+  .space{height: 10px;}
+  .header { display : flex;justify-content:flex-start;}
+  #myTopnav{display: block;}
+  .topnav {margin-top: 20px;margin-left: 30px;}
+  .topnav a {display: block;padding:5px 10px; margin:0px 0px 0px 0px;border-radius: 0px;background: none;display: block;
+    font-size: 12px;
+    font-family: 'Poppins Regular';
+    border: none;
+    border-bottom: 1px solid #ffce00;}
+
+  .landingPage-content1{margin: 30px auto 10px auto; scale: 100%; text-align: center; background-size: 100%; background-position-y:bottom;background-position-x: -100px; padding-bottom: 290px; padding-left: 30px; padding-right: 30px;}
+  .hero-text1{margin-top: 100px;font-size: 30px;}
+  .hero-text2{font-size: 18px; color:rgb(116, 116, 116); margin-top: -5px ; margin-bottom: 20px;}
+  .animationContent{max-width:166%; margin: 0px; padding: 0px 0px 40px 0px;}
+  .logo{margin: 25px 10px 0 20px; float:left;}
+  .rowclass{display: block;}
+
+
+  #whatwedo{padding-top: 40px; display:block;}
+  .our-work{ font-size: 15px;}
+  .cards{ display: block;margin: 10px 15%;}
+  .card-design{margin: 0px 10px; padding: 10px;}
+  .text{font-size: 12px;padding: 0px 45px;}
+  .resize-text{display: inline;} 
+
+  #howwedoit{padding: 50px 0;}
+  video {
+    max-width: 80%;
+    height: auto;
+  }
+
+  /*Articles*/
+  #articles{padding: 20px 0 30px 0;}
+  .articles-panel{display: block; padding: 10px;}
+  .article-boxs{padding: 45px 45px 0px 45px;}
+  .seperator{width: 0px;min-height: 0%;}
+  .external-link{text-align: center; padding-top:0px;font-size: large;scale: 80%;}
+
+
+
+  /* Contact Us*/
+  .contactus-heading{justify-content: center;padding-top: 60px;}
+  .contactus-heading-p1{font-size: 28px;}
+  .contactus-heading-p2{font-size: 28px;margin: 0px 0px 0px 10px;padding:0px 10px ;border-radius: 10px;}
+  .contact-content{ padding: 40px 0px 80px 0px;display: block; justify-content: center;}
+  .contactusbox1{margin: auto;width: 80%;padding: 10px 30px;border-radius: 20px 20px 0px 0px;max-width: fit-content}
+  .social-display-direction{display: flex; justify-content: center;}
+  .footer-socials{ filter: none; max-width: 40px; padding: 5% 10px;cursor: pointer;opacity: 100%;transition: all 300ms ease;}
+
+  .contactusbox2{margin: auto;width: 80%;padding: 10px 26px;border-radius: 0px 0px 20px 20px;max-width: fit-content}
+  .contactus-subheading{font-size: 13px;text-align: center;}
+  .inputbox{width: 180px;}
+  .textbox{width:242px;height:70px;}
+  .submit-box{justify-content: center;display: flex;}
+  input {
+    padding: 0px 2px;
+  }
+  .horizontal{display: block;}  
+  .vertical{display: flex;padding-right: 0px;}
+  
+
+}
+
