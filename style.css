@@ -178,7 +178,7 @@ body {
     -webkit-filter: grayscale(0%);
     -moz-filter:    grayscale(0%);
     -ms-filter:     grayscale(0%);
-    -o-filter:      grayscale(0%);  opacity: 100%;}
+    -o-filter:      grayscale(0%);  opacity: 100%;scale: 120%;}
     .logo{
      margin: 40px 10px 10px 40px ;}
     .topnav {
@@ -186,7 +186,7 @@ body {
   margin-left: 23%;
   margin-top: 0px;}
 .rowclass { display : flex;justify-content: center;}
-.header { display : flex;justify-content: center;}
+.header { display : flex;justify-content: center;width: 100%;}
 .header:after {
   content: "";
   display: table;
@@ -216,9 +216,6 @@ body {
     
 }
 
-.topnav .icon {
-  display: none;
-}
 .landingPage-content1{
   margin: 50px 10px 40px 40px ;
   padding-bottom: 150px;
@@ -316,10 +313,15 @@ body {
   .horizontal{display: flex;}  
   .vertical{display: block;padding-right: 30px;line-height: 1px;}
 
-  
+  /*footer*/
+  footer {
+    background-color: #fff;
+    color: #8d8d8d;
+    text-align: center;
+    padding: 10px;
+  }
 
 .space{height: 50px;}
-
 
 
   @media screen and (max-width: 600px) {
