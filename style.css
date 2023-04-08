@@ -254,7 +254,7 @@ body {
   }
 
   .a-links{text-decoration: none;color: rgb(255, 255, 255);font-weight: bold;}
-  .animationContent {max-width: 80%;height:auto; padding: 0px 0px; margin-top: 0px;margin-left: 20%;filter: brightness(1.03);}
+  .animationContent {max-width: 80%;height:auto; padding: auto 0px; margin-top: 120px;margin-left: 15%;filter: brightness(1.03);}
 
 
 
