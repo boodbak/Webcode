@@ -167,26 +167,18 @@ body {
 
 
   /*Landing*/
-   .socialIcons {max-width: 18px;  padding-right: 1%; object-fit:cover;  filter: none;
-    -webkit-filter: grayscale(100%);
-    -moz-filter:    grayscale(100%);
-    -ms-filter:     grayscale(100%);
-    -o-filter:      grayscale(100%);
+   .socialIcons {max-width: 50px;  padding-right: 3%; object-fit:cover;  filter: none;margin-top: 20px;
     cursor: pointer;
-    transition: all 300ms ease; opacity: 30%;}
-   .socialIcons:hover{filter: none;
-    -webkit-filter: grayscale(0%);
-    -moz-filter:    grayscale(0%);
-    -ms-filter:     grayscale(0%);
-    -o-filter:      grayscale(0%);  opacity: 100%;scale: 120%;}
+    transition: all 300ms ease; opacity: 100%;}
+   .socialIcons:hover{ opacity: 100%;scale: 120%;}
     .logo{
-     margin: 40px 10px 10px 40px ;}
+     margin: 20px 5px 10px 20px ;}
     .topnav {
   display: flex;
   margin-left: 23%;
   margin-top: 0px;}
-.rowclass { display : flex;justify-content: center;}
-.header { display : flex;justify-content: center;width: 100%;}
+.rowclass { display : flex;justify-content: center;background-color: #f3f3f3;}
+.header { display : flex;justify-content: center;width: 100%;background-image: url('assets/Header-bg.jpg');background-repeat: no-repeat;background-size: cover;}
 .header:after {
   content: "";
   display: table;
@@ -201,66 +193,68 @@ body {
   font-family: 'Poppins Regular';
   border-radius:0px 0px 20px 20px;
   text-decoration:none;
-  margin: -2px 20px 70px 20px;
+  margin: -2px 20px 30px 20px;
   color: black;
-  border: 2px solid #ffce00;
+ 
     background-color: white;
      
     transition-duration: 0.2s;
 }
 .topnav a:hover {
   background-image: linear-gradient(to top right, #ffce00, #ffe266);
-     border: 2px solid rgb(247, 247, 247);
+    
     cursor: pointer;
     
     
 }
 
 .landingPage-content1{
-  margin: 50px 10px 40px 40px ;
-  padding-bottom: 150px;
+  margin: 40px 10px 0px 40px ;
+  padding-bottom: 70px;
   font-family: 'Poppins Regular';
+  max-width: 40%;
   padding-right: 50px;
-  background-image: url('assets/landingPageManVector.png');background-repeat: no-repeat; background-size: 100%; background-position-y: bottom;
+ 
 }
-
-.hero-text1{margin: 0px;font-family: 'Poppins bold'; font-size: 40px; color: rgb(17, 17, 17);}
-.hero-text2{font-family: 'Poppins semibold';font-size: 22px; color:rgb(116, 116, 116); margin-top: -5px ; margin-bottom: 20px;}
+.landing-bg{background-image: url('assets/bg.gif');background-repeat: no-repeat;width: 100%;height: 100%;background-position: center;background-size: 100%;}
+.hero-text1{margin: 20px 0 0px 0;font-family: Helvetica, Arial, sans-serif; font-size: 40px; color: rgb(17, 17, 17);font-weight: 800;}
+.hero-text2{margin: 20px 0 0px 0;font-family: Helvetica, Arial, sans-serif; font-size: 50px; color: rgb(17, 17, 17);font-weight: 800;}
 
   .callToAction{
-  padding: 16px 32px;
+  padding: 25px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 20px;
   margin-left: 0%;
   transition-duration: 0.4s;
   border-radius: 10px;
   cursor: pointer;
-  position: relative;
-  left: -2px;
 
-  background-color: #ffce00;
-     border: 2px solid #ffce00;
+ 
+
+  background-color: rgb(22, 163, 9);
+  border: none;
+     
  
 
   }
   .callToAction:hover { background-color: rgb(22, 163, 9);
-    border: 2px solid rgb(22, 163, 9);
+    
     scale: 105%;
 
 
   }
 
   .a-links{text-decoration: none;color: rgb(255, 255, 255);font-weight: bold;}
-  .animationContent {max-width: 80%;height:auto; padding: auto 0px; margin-top: 120px;margin-left: 15%;filter: brightness(1.03);}
+  .animationContent {max-width: 80%;height:auto; padding: auto 0px;filter: brightness(1.03);}
 
 
 
 
 /*What we do*/
-  #whatwedo{width:100%;padding-top: 70px;padding-bottom: 10px;display: block;justify-content: center; background-color: rgb(250, 250, 250);}
+  #whatwedo{width:100%;padding-top: 70px;padding-bottom: 50px;display: block;justify-content: center; background-color: rgb(250, 250, 250);}
   .our-work{ font-size: 30px;display: flex;flex-direction:row;justify-content: center;font-family: 'Poppins bold';}
   .cards{display: flex;flex-direction:row; justify-content: center;margin-top: 40px;}
   .card-design{background-image: linear-gradient(to top right, #ffce00, #ffe266); width: 240px; height: 340px ; margin: 0px 60px; border-radius: 40px; text-align: center; padding: 10px;}
@@ -271,9 +265,9 @@ body {
 
 
 /*Articles*/
-#articles{width:100%;display: block; background-color: white; padding: 150px 0 30px 0;}
+#articles{width:100%;display: block; background-color: white; padding: 80px 0 30px 0;}
 .articles-panel{display: flex;justify-content: center;}
-.article-boxs{margin: 0px;font-family: 'Poppins regular';color:rgb(53, 53, 53);}
+.article-boxs{margin: 0px 50px;font-family: 'Poppins regular';color:rgb(53, 53, 53);}
 .seperator{background-color: gray;width: 1px;min-height: 100%;margin-left:50px; margin-right: 50px;}
 .external-link{font-family: 'Poppins bold'; text-align: center; padding-top: 70px;cursor: pointer;}
 
@@ -321,28 +315,40 @@ body {
     padding: 10px;
   }
 
-.space{height: 50px;}
+.space{height: 20px;}
 
 
   @media screen and (max-width: 600px) {
 
   .space{height: 10px;}
-  .header { display : flex;justify-content:flex-start;}
+  .header { display : flex;justify-content:center;}
   #myTopnav{display: block;}
-  .topnav {margin-top: 20px;margin-left: 30px;}
+  .topnav {margin-top: 10px;margin-bottom: 10px;}
   .topnav a {display: block;padding:5px 10px; margin:0px 0px 0px 0px;border-radius: 0px;background: none;display: block;
-    font-size: 12px;
+    font-size: 12px;color: white;
     font-family: 'Poppins Regular';
     border: none;
     border-bottom: 1px solid #ffce00;}
-
-  .landingPage-content1{margin: 30px auto 10px auto; scale: 100%; text-align: center; background-size: 100%; background-position-y:bottom;background-position-x: -100px; padding-bottom: 290px; padding-left: 30px; padding-right: 30px;}
-  .hero-text1{margin-top: 100px;font-size: 30px;}
+    .landing-bg{background-image: url('assets/bg-mobile.gif');background-repeat: no-repeat;width: 100%;height: 270px;background-position: center;background-size: 100%;}
+  .landingPage-content1{margin: 0px auto; scale: 90%; text-align: center; max-width: 100%;width: 100%;padding: 0;}
+  .hero-text1{margin-top: 0px;padding-top:50px;font-size: 30px;}
   .hero-text2{font-size: 18px; color:rgb(116, 116, 116); margin-top: -5px ; margin-bottom: 20px;}
-  .animationContent{max-width:166%; margin: 0px; padding: 0px 0px 40px 0px;}
+  .animationContent{max-width:100%; margin: 0px; padding: 20px 0px 20px 0px;}
   .logo{margin: 25px 10px 0 20px; float:left;}
   .rowclass{display: block;}
+  .callToAction{
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 0%;
+    }
 
+    .socialIcons {max-width: 50px;  padding-right: 2%; object-fit:cover;  filter: none;margin-top: 20px;
+      cursor: pointer;
+      transition: all 300ms ease; opacity: 100%;}
 
   #whatwedo{padding-top: 40px; display:block;}
   .our-work{ font-size: 15px;}
@@ -360,7 +366,7 @@ body {
   /*Articles*/
   #articles{padding: 20px 0 30px 0;}
   .articles-panel{display: block; padding: 10px;}
-  .article-boxs{padding: 45px 45px 0px 45px;}
+  .article-boxs{padding: 45px 0px 0px 0px;}
   .seperator{width: 0px;min-height: 0%;}
   .external-link{text-align: center; padding-top:0px;font-size: large;scale: 80%;}
 
