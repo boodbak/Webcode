@@ -5,17 +5,13 @@ function generateImageContainers() {
     // An array of image sources
     var imageSources = [
         // Add more image sources here
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
-        'assets/Couple-Rings-Thumb.jpg',
+        'Gold/Thumbs/Ear-Rings.jpg',
+        'Gold/Thumbs/Ear-Rings.jpg',
+        'Gold/Thumbs/Ear-Rings.jpg',
+        'Gold/Thumbs/Ear-Rings.jpg',
+        'Gold/Thumbs/Ear-Rings.jpg',
+        'Gold/Thumbs/Ear-Rings.jpg',
+     
     ];
 
     // Loop through the image sources and create image containers
