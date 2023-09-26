@@ -149,7 +149,7 @@ div.desc {
     width: 100%;
   }
   .gallery {
-    width: 33.3%; /* Adjust this value as needed for your layout */
+    width: 50%; /* Adjust this value as needed for your layout */
   }
   
   .cover{height: 180px;}
@@ -165,7 +165,7 @@ div.desc {
   }
   
   .close {
-    top: 30%;
+    top: 25%;
   }
 
   .prev, .next {
