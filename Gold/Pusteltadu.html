@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <title>Jain Jewellers</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="gallery.css">
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  var imageContainer = document.getElementById('imageContainer');
+
+  // Check if the imageContainer exists
+  if (imageContainer) {
+    // Rest of your code to generate and append image containers
+  } else {
+    console.error("imageContainer not found in the DOM.");
+  }
+});
+
+    </script>
+ 
+</head>
+<body>
+<header>
+      
+    
+        <div class="floaters">
+        <a href="https://api.whatsapp.com/send?phone=918143439339&amp;text=Hello!"
+            target="_blank">
+            <span>
+                <img src="../assets/whatsapp.png">
+            </span>
+        </a>
+    </div>
+       
+        <!-- Logo -->
+        
+        <div class="navbar-logo">
+          <a href="javascript:history.back()"><img src="../assets/Logo.png" alt="Logo"></a>
+        </div>
+        
+        <!-- Vertical div container -->
+        <div class="vertical-divs">
+            <!-- Scrolling div -->
+            <div class="container">
+                <div class="left">
+                    <div class="header-text">
+                        <h6 class="text-white">
+                            For information or enquiries call on
+                            <a href="tel:+918143439339" class="text-white">+91 8143439339</a>
+                        </h6>
+                    </div>
+                </div>
+                <div class="right">
+                  <div class="scrolling-text"><script src="../updatePrices.js"></script>
+                    GOLD RATE:<a class="yellow" id="goldRatePlaceholder">goldprice</a>,
+                    SILVER RATE:<a class="yellow" id="silverRatePlaceholder">silverprice</a>
+                  </div>
+                </div>
+            </div>
+            
+            <!-- Navbar -->
+            <div class="navbar">
+                
+              <div class="dropdown">
+                  <button class="GoldButton">Gold Ornaments ▼</button>
+                  
+                  <div class="dropdown-content Gold">
+                    <a href="../Gold/Long-Haar.html">Long Haar</a>
+                    <a href="../Gold/Short-Necklace.html">Short Necklace</a>
+                    <a href="../Gold/Mangalsutra.html">Mangalsutra</a>
+                    <a href="../Gold/Pusteltadu.html">Pusteltadu</a>
+                    <a href="../Gold/Chains.html">Chains</a>
+                    <a href="../Gold/Gents-Rings.html">Gents Rings</a>
+                    <a href="../Gold/Ladies-Rings.html">Ladies Rings</a>
+                    <a href="../Gold/Couple-Rings.html">Couple Rings</a>
+                    <a href="../Gold/Gents-Bracelets.html">Gents Bracelets</a>
+                    <a href="../Gold/Ladies-Bracelets.html">Ladies Bracelets</a>
+                    <a href="../Gold/Vanki-Rings.html">Vanki Rings</a>
+                    <a href="../Gold/Earrings.html">Earrings</a>
+                    <a href="../Gold/Jhumkas.html">Jhumkas</a>
+                    <a href="../Gold/Matil.html">Matil</a>
+                    <a href="../Gold/Bangles.html">Bangles</a>
+                    <a href="../Gold/Kada.html">Kada</a>
+
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="SilverButton">Silver Articles ▼</button>
+                  <div class="dropdown-content Silver">
+                    <a href="../Silver/Anklets.html">Anklets</a>
+                    <a href="../Silver/Chains.html">Chains</a>
+                    <a href="../Silver/Keychains.html">Keychains</a>
+                    <a href="../Silver/Kada.html">Kada</a>
+                    <a href="../Silver/Bracelets.html">Bracelets</a>
+                    <a href="../Silver/Rings.html">Rings</a>
+                    <a href="../Silver/Samay.html">Samay</a>
+                    <a href="../Silver/Deepam.html">Deepam</a>
+                    <a href="../Silver/Plate.html">Plate</a>
+                    <a href="../Silver/Glass.html">Glass</a>
+                    <a href="../Silver/Chambu.html">Chambu</a>
+                    <a href="../Silver/Spoon.html">Spoon</a>
+                    <a href="../Silver/Idol.html">Idol</a>
+                    <a href="../Silver/Bowl.html">Bowl</a>
+                    <a href="../Silver/Ginne.html">Ginne</a>
+                      
+                  </div>
+              </div>
+              
+      
+             
+             
+          </div>
+        </div>
+
+
+        
+ </header>
+   
+
+
+  <!--Change-->
+<div class="cover"><div style="display: block;text-align: center;"><span class="cover-text">Pusteltadu</span> 
+  <p class="Description">Explore our exquisite collection of 22kt916 purity Jewellery</p>
+</div>
+</div>
+
+<div class="space"></div>  
+ <div class="space"></div>   
+
+ <div style="display: flex;justify-content: center;padding:0 5% ;">
+ <div class="clearfix">
+
+
+  <div class="responsive" id="imageContainer"></div>
+ <!--Change-->
+  <script src="Pusteltadu.js"></script>
+
+
+</div>
+</div>
+
+  <div class="clearfix"></div>
+
+
+
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <div class="image-container">
+    <img class="modal-content" id="modalImage">
+    <a href="#" onclick="shareOnWhatsApp()">
+      <button id="whatsappButton" class="whatsapp-share">
+        <img src="../assets/whatsapp.png" width="30px" style="margin: 0; padding: 0; vertical-align: middle;" alt="WhatsApp Icon">
+        <span style="vertical-align: middle;">Enquire on WhatsApp</span>
+      </button>
+    </a>
+  </div>
+  <div class="prev" onclick="changeSlide(-1)">&#10094;</div>
+  <div class="next" onclick="changeSlide(1)">&#10095;</div>
+</div>
+<script>
+  // Initially hide the modal
+  var modal = document.getElementById('myModal');
+  modal.style.display = 'none';
+
+  // Open the modal
+  function openModal(imageSrc) {
+    var modalImg = document.getElementById('modalImage');
+
+    modal.style.display = 'flex'; // Use flex to center both vertically and horizontally
+    modalImg.src = imageSrc;
+  }
+
+  // Close the modal
+  function closeModal() {
+    modal.style.display = 'none';
+  }
+
+  // Share the image on WhatsApp
+  function shareOnWhatsApp() {
+  var modalImg = document.getElementById('modalImage');
+  var imageSrc = modalImg.src;
+  var encodedImageSrc = encodeURIComponent(imageSrc);
+  var phoneNumber = '918143439339'; // Replace with the desired phone number
+  var whatsappShareLink = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodedImageSrc;
+  window.open(whatsappShareLink);
+}
+
+  // Handle navigation
+  var slideIndex = 0;
+
+  function changeSlide(n) {
+    slideIndex += n;
+    var images = document.querySelectorAll('.responsive img');
+
+    if (slideIndex >= images.length) {
+      slideIndex = 0;
+    } else if (slideIndex < 0) {
+      slideIndex = images.length - 1;
+    }
+
+    openModal(images[slideIndex].src);
+  }
+</script>
+<div class="hallmark">
+    <img src="../assets/trusticon.png" width="90px" height="90px">
+    <img src="../assets/hallmark.png" width="100px">
+  </div> 
+
+<p class="MoreGoldRange-Text">
+  "Discover more stunning ornaments and jewellery in our extensive collection"
+</p>
+
+<div class="MoreGoldRange" id="catalog">
+    
+<div class="GoldRange-Heading">
+<img src="../assets/GoldBar.png" class="Range-Bar">
+<p class="GoldRange-Heading-Text">Our Gold Range </p>
+<img src="../assets/GoldBar.png" class="Range-Bar">  
+</div>
+
+<div class="thumbnail-container">
+  <a href="Long-Haar.html"><img src="Thumbs/Long-Haar.jpg" class="thumbnails"></a>
+  <a href="Short-Necklace.html"><img src="Thumbs/Short-Necklace.jpg" class="thumbnails"></a>
+  <a href="Mangalsutra.html"><img src="Thumbs/Mangalsutra.jpg" class="thumbnails"></a>
+  <a href="Pusteltadu.html"><img src="Thumbs/Pusteltadu.jpg" class="thumbnails"></a>
+  <a href="Chains.html"><img src="Thumbs/Chains.jpg" class="thumbnails"></a>
+</div>
+
+<div class="thumbnail-container">
+  <a href="Gents-Rings.html"><img src="Thumbs/Gents-Ring.jpg" class="thumbnails"></a>
+  <a href="Ladies-Rings.html"><img src="Thumbs/Ladies-Ring.jpg" class="thumbnails"></a>
+  <a href="Vanki-Rings.html"><img src="Thumbs/Vanki-Rings.jpg" class="thumbnails"></a>
+  <a href="Couple-Rings.html"><img src="Thumbs/Couple-Rings.jpg" class="thumbnails"></a>
+  <a href="Gents-Bracelets.html"><img src="Thumbs/Gents-Bracelet.jpg" class="thumbnails"></a>
+  <a href="Ladies-Bracelets.html"><img src="Thumbs/Ladies-Bracelet.jpg" class="thumbnails"></a>
+</div>
+
+<div class="thumbnail-container">
+  <a href="Earrings.html"><img src="Thumbs/Ear-Rings.jpg" class="thumbnails"></a>
+  <a href="Jhumkas.html"><img src="Thumbs/Jhumkas.jpg" class="thumbnails"></a>
+  <a href="Matil.html"><img src="Thumbs/Matil.jpg" class="thumbnails"></a>
+  <a href="Bangles.html"><img src="Thumbs/Bangles.jpg" class="thumbnails"></a>
+  <a href="Kada.html"><img src="Thumbs/Kada.jpg" class="thumbnails"></a>
+</div> 
+</div>
+</body>
+<footer style="padding: 15px 0;font-family: 'EB Garamond', cursive;font-size: 15px;color: #ffffff;font-weight: 400;text-align: center;background-color:#852e22">©2023 JainJewellers.in All Rights Reserved.</footer>
+
+</html>
+
+
+
+
+
+
